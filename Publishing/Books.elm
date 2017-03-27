@@ -1,7 +1,7 @@
-module Books exposing (..)
+module Publishing.Books exposing (..)
 
 import Html
-import Punctuation exposing (..)
+import Publishing.Punctuation exposing (..)
 
 
 type alias Sentence =

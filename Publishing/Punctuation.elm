@@ -1,4 +1,4 @@
-module Punctuation exposing (..)
+module Publishing.Punctuation exposing (..)
 
 type Punctuation
     = Period

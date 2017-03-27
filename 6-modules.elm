@@ -1,6 +1,6 @@
 import Html
-import Books exposing (..)
-import Punctuation exposing (..)
+import Publishing.Books exposing (..)
+import Publishing.Punctuation exposing (..)
 
 main : Html.Html msg
 main =
