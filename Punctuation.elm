@@ -1,11 +1,9 @@
-import Html
-
+module Punctuation exposing (..)
 
 type Punctuation
     = Period
     | QuestionMark
     | ExclamationMark
-
 
 punctuate : Punctuation -> String -> String
 punctuate p s =
@@ -17,13 +15,3 @@ punctuate p s =
                 ExclamationMark -> "!"
     in
         s ++ mark
-
-
-exclaim : String -> String
-exclaim =
-    punctuate ExclamationMark
-
-
-main =
-    exclaim "The owls are not what they seem"
-        |> Html.text
