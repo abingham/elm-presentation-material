@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Example code for a presentation",
-    "repository": "https://github.com/abingham/elm-presentation-material",
+    "repository": "https://github.com/abingham/elm-presentation-material.git",
     "license": "MIT",
     "source-directories": [
         "."
